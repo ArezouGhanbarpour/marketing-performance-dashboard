@@ -4,7 +4,6 @@
 ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-yellow)
 ![Business Intelligence](https://img.shields.io/badge/BI-Analytics-orange)
-![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-purple)
 
 ## Project Overview
 
