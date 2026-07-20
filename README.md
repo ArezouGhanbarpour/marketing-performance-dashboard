@@ -97,33 +97,25 @@ Each event was validated and consolidated at the user level to measure conversio
 
 Measures the marketing cost required to acquire one converted customer.
 
-**Formula:**
-
-CAC = Marketing Spend / Number of Acquired Customers
+**Formula:**  CAC = Marketing Spend / Number of Acquired Customers
 
 ### Funnel Conversion Rate
 
 Measures the percentage of users who successfully move through the acquisition funnel.
 
-**Formula:**
-
-Completed Funnel Users / Started Funnel Users
+**Formula:**  Completed Funnel Users / Started Funnel Users
 
 ### Account Created Rate
 
 Measures the percentage of users who complete the signup process after starting registration.
 
-**Formula:**
-
-Signup Finished Users / Signup Started Users
+**Formula:**  Signup Finished Users / Signup Started Users
 
 ### Drop-off Rate
 
 Measures the percentage of users lost between two consecutive funnel stages.
 
-**Formula:**
-
-Users Lost Between Steps / Previous Funnel Step Users
+**Formula:**  Users Lost Between Steps / Previous Funnel Step Users
 
 ## SQL Solution
 
