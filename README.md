@@ -16,8 +16,6 @@ The goal of this project is to analyze marketing funnel performance, channel eff
 - SQL Server
 - Power BI
 - Excel
-- Data Warehouse Modeling
-- Star Schema Design
 - SQL Analytics
 - Business Intelligence
 
