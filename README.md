@@ -43,11 +43,11 @@ The dataset contains marketing tracking events and campaign budget information u
 
 It includes:
 
-* Event-based user tracking data
-* Marketing channel information (Facebook, Instagram, TikTok, and Google Ads)
-* Marketing budget by reporting period
-* User journey events across the signup funnel
-* Two reporting periods:
+- Event-based user tracking data
+- Marketing channel information (Facebook, Instagram, TikTok, and Google Ads)
+- Marketing budget by reporting period
+- User journey events across the signup funnel
+- Two reporting periods:
 
   * **M1:** 01–14 October
   * **M2:** 15–31 October
