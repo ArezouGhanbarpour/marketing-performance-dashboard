@@ -1,14 +1,30 @@
-# marketing-performance-dashboard
+# Marketing Performance Dashboard
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-yellow)
+![Business Intelligence](https://img.shields.io/badge/BI-Analytics-orange)
+![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-purple)
+
+## Project Overview
+
 End-to-end BI case study analyzing marketing campaign performance using SQL Server and Power BI.
 
-## Tools
+The goal of this project is to analyze marketing funnel performance, channel efficiency, customer acquisition cost, and budget allocation.
+
+## Technologies Used
+
 - SQL Server
 - Power BI
 - Excel
+- Data Warehouse Modeling
+- Star Schema Design
+- SQL Analytics
+- Business Intelligence
 
-## Project Goal
 
-Analyze marketing funnel performance, channel efficiency, customer acquisition cost, and budget allocation.
+## Business Context
+
 
 ## Dataset
 
