@@ -47,10 +47,7 @@ It includes:
 - Marketing channel information (Facebook, Instagram, TikTok, and Google Ads)
 - Marketing budget by reporting period
 - User journey events across the signup funnel
-- Two reporting periods:
-
-  * **M1:** 01–14 October
-  * **M2:** 15–31 October
+- Two reporting periods: **M1:** 01–14 October **M2:** 15–31 October
 
 
 The data was designed to simulate a real-world digital marketing analytics environment for business intelligence reporting.
