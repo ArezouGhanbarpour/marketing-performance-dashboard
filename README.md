@@ -30,12 +30,12 @@ This project analyzes event-level marketing data to evaluate user behavior throu
 
 The dashboard was designed to answer the following business questions:
 
-How should raw tracking events be consolidated into a reliable user-level dataset?
-How many users progress through each stage of the marketing funnel?
-At which funnel stage do the highest user drop-offs occur?
-Which marketing channel delivers the best acquisition efficiency?
-Which channel has the highest Customer Acquisition Cost (CAC)?
-How should future marketing budgets be allocated based on performance?
+- How should raw tracking events be consolidated into a reliable user-level dataset?
+- How many users progress through each stage of the marketing funnel?
+- At which funnel stage do the highest user drop-offs occur?
+- Which marketing channel delivers the best acquisition efficiency?
+- Which channel has the highest Customer Acquisition Cost (CAC)?
+- How should future marketing budgets be allocated based on performance?
 
 ## Dataset
 
