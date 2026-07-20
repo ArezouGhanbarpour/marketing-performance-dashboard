@@ -1,34 +1,19 @@
 # marketing-performance-dashboard
-End-to-end marketing analytics case study using SQL Server and Power BI
+End-to-end BI case study analyzing marketing campaign performance using SQL Server and Power BI.
 
-marketing-performance-dashboard/
+## Tools
+- SQL Server
+- Power BI
+- Excel
 
-│
-├── README.md
-│
-├── data/
-│   ├── raw/
-│   │   └── marketing_events.xlsx
-│   │
-│   └── processed/
-│       └── cleaned_marketing_data.csv
-│
-├── sql/
-│   ├── 01_data_quality_checks.sql
-│   ├── 02_cleaning_queries.sql
-│   ├── 03_funnel_analysis.sql
-│   └── 04_channel_performance.sql
-│
-├── powerbi/
-│   └── Marketing_Performance_Dashboard.pbix
-│
-├── screenshots/
-│   ├── dashboard_overview.png
-│   └── channel_analysis.png
-│
-├── documentation/
-│   ├── KPI_Definitions.md
-│   └── Business_Insights.md
-│
-└── assets/
-    └── project_diagram.png
+## Project Goal
+
+Analyze marketing funnel performance, channel efficiency, customer acquisition cost, and budget allocation.
+
+## Dataset
+
+Fictional marketing tracking data containing:
+- User events
+- Marketing channels
+- Budget information
+- Time periods
