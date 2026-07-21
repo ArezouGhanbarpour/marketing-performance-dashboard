@@ -3,6 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-yellow)
+![Excel](https://img.shields.io/badge/Excel-Data_Source-green)
 ![Business Intelligence](https://img.shields.io/badge/BI-Analytics-orange)
 
 ## Project Overview
@@ -64,6 +65,7 @@ The data preparation process included:
 * Identifying missing or invalid User Keys
 * Validating event sequences within the user journey
 * Applying funnel logic to create a reliable user-level dataset
+* Event timestamps were analyzed using minimum and maximum event times to validate user progression through the signup funnel.
 
 ### Data Quality Results
 
@@ -149,46 +151,145 @@ The Power BI dashboard was developed to analyze marketing channel performance, u
 
 The dashboard consists of two main pages:
 
-### Page 1 — Marketing Overview
+#### Marketing Overview
 
-Includes:
+The first dashboard page provides a high-level view of marketing performance, including:
 
 * Marketing budget distribution by channel
-* Customer Acquisition Cost (CAC)
-* Account Created Rate
 * Funnel Conversion Rate
+* Account Created Rate
+* Customer Acquisition Cost (CAC)
 * Channel performance comparison
-* M1/M2 period filtering
+* M1 and M2 period filtering
 
-### Page 2 — Channel Detail Analysis
+#### Channel Detail Analysis
 
-Includes:
+The second dashboard page provides a detailed breakdown for each marketing channel, including:
 
-* Channel-specific funnel analysis
-* Event-based user conversion funnel
+* Funnel event counts
+* Funnel progression from signup to ID verification
 * Cumulative conversion trend
-* Budget allocation analysis
+* Budget allocation by reporting period
 * Signup completion distribution
-* Channel comparison across Facebook, Instagram, TikTok, and Google Ads
+* Channel performance comparison
 
+## Dashboard Gallery
+
+### Marketing Overview
 
 ![Dashboard Overview](images/dashboard-overview.png)
 
+
+### Channel Analysis
+
+#### Facebook
+
+![Facebook Overview](images/Facebook-Selected.png)
+
+![Facebook Details](images/Facebook-Details.png)
+
+
+#### Instagram
+
+![Instagram Overview](images/Instagram-Selected.png)
+
+![Instagram Details](images/Instagram-Details.png)
+
+
+#### TikTok
+
+![TikTok Overview](images/TikTok-Selected.png)
+
+![TikTok Details](images/TikTok-Details.png)
+
+
+#### Google Ads
+
+![Google Ads Overview](images/GoogleAds-Selected.png)
+
+![Google Ads Details](images/GoogleAds-Details.png)
+
+
+### Period Comparison
+
+#### M1 vs M2
+
+![M1](images/HalfMonth1.png)
+
+![M2](images/HalfMonth2.png)
+
+
 ## Business Insights & Recommendations
 
-### 1.
+
+### 1. Google Ads received the largest budget share but showed the lowest acquisition efficiency.
+
+Google Ads accounted for approximately 61% of total marketing spend but generated only 9% of created accounts. The channel also recorded the highest Customer Acquisition Cost (CAC), significantly higher than other marketing channels.
+
+This indicates that the current Google Ads investment level is not aligned with acquisition performance.
 
 **Recommendation**
 
+Review Google Ads campaign structure, audience targeting, bidding strategy, and keyword performance before increasing future investment. Budget should be shifted toward campaigns that demonstrate stronger acquisition efficiency.
+
+
 ---
 
-### 2.
+### 2. Instagram delivered the strongest cost efficiency among marketing channels.
+
+Instagram received a relatively small share of the total budget while achieving one of the lowest CAC values and maintaining a high conversion rate throughout both reporting periods.
+
+The channel demonstrated the ability to acquire users efficiently with limited budget allocation.
 
 **Recommendation**
 
+Consider gradually increasing Instagram investment while monitoring whether CAC remains stable as spending increases.
+
+
 ---
 
-### Overall Business Recommendation
+### 3. TikTok generated strong user acquisition volume with competitive performance.
+
+TikTok produced the highest share of created accounts while maintaining strong funnel conversion performance. Although CAC increased in M2 compared with M1, the channel continued to generate significant acquisition volume.
+
+**Recommendation**
+
+Continue investing in TikTok while optimizing campaign targeting and creative performance to maintain acquisition efficiency as budget scales.
+
+
+---
+
+### 4. Facebook showed strong funnel completion performance.
+
+Facebook achieved consistently high conversion rates across reporting periods, indicating strong user progression through the signup journey. However, its acquisition efficiency should be evaluated together with CAC and total acquisition volume.
+
+**Recommendation**
+
+Maintain Facebook investment while testing opportunities to improve acquisition volume and reduce customer acquisition costs.
+
+
+---
+
+### 5. The largest funnel drop-off occurred at the ID Verification stage.
+
+Across channels, users showed strong progression through early signup stages, but a significant reduction occurred during the final identity verification step.
+
+This suggests that marketing performance is not the only factor affecting completed account creation; user experience during verification may also impact conversion.
+
+**Recommendation**
+
+Analyze the ID verification journey and reduce potential friction points through UX improvements, clearer instructions, and simplified verification steps.
+
+
+---
+
+## Overall Business Recommendation
+
+Marketing budget allocation should move toward a performance-based strategy where channels are evaluated using multiple KPIs, including CAC, conversion rate, and completed account creation.
+
+Based on the analysis, Instagram and TikTok show stronger acquisition efficiency, while Google Ads requires optimization before additional investment. Improving the ID Verification experience could further increase completed registrations without increasing marketing spend.
+
+A continuous testing approach should be applied by reallocating budget, monitoring CAC changes, and comparing channel performance across future reporting periods.
 
 ## How to Explore This Project
 
