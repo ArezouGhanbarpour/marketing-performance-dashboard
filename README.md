@@ -1,6 +1,5 @@
 # Marketing Performance Dashboard
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-yellow)
 ![Excel](https://img.shields.io/badge/Excel-Data_Source-green)
