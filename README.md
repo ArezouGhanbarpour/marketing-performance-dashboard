@@ -93,52 +93,53 @@ The funnel consists of four key stages:
 Each event was validated and consolidated at the user level to measure conversion rates and identify major drop-off points throughout the acquisition process.
 
 
-## KPI Definitions
+## Marketing Performance KPIs
 
 ### Customer Acquisition Cost (CAC)
 
-**Purpose:**  
-Measures the marketing spend required to acquire one converted customer.
+**Business Meaning:**  
+Measures the cost required to acquire one new user through marketing activities.
 
 **Formula:**
 
-`CAC = Marketing Spend / Number of Acquired Customers`
+`CAC = Marketing Spend / Acquired Users`
 
 
 ---
 
 ### Funnel Conversion Rate
 
-**Purpose:**  
-Measures how effectively users progress through the complete acquisition funnel.
+**Business Meaning:**  
+Measures the percentage of users who successfully progress through the complete signup funnel.
 
 **Formula:**
 
-`Funnel Conversion Rate = Completed Funnel Users / Started Funnel Users`
+`Conversion Rate = Completed Funnel Users / Started Funnel Users`
 
 
 ---
 
-### Account Created Rate
+### Account Creation Rate
 
-**Purpose:**  
+**Business Meaning:**  
 Measures the percentage of users who complete account creation after starting signup.
 
 **Formula:**
 
-`Account Created Rate = Signup Finished Users / Signup Started Users`
+`Account Creation Rate = Signup Finished Users / Signup Started Users`
 
 
 ---
 
-### Drop-off Rate
+### Funnel Drop-off Rate
 
-**Purpose:**  
-Measures the percentage of users who abandon the journey between two consecutive funnel stages.
+**Business Meaning:**  
+Measures user loss between two consecutive funnel stages.
 
 **Formula:**
 
 `Drop-off Rate = Users Lost Between Steps / Previous Funnel Step Users`
+
 ## SQL Solution
 
 SQL Server was used to transform raw marketing tracking events into a structured dataset for funnel and channel performance analysis.
