@@ -332,6 +332,27 @@ sales-analytics-dashboard
 └── docs/
 ```
 
+## Project Files
+
+### SQL Scripts
+
+All SQL scripts used for data preparation, transformation and analysis:
+
+[View SQL Scripts](./sql)
+
+
+### Power BI Dashboard
+
+Interactive Power BI dashboard:
+
+[Open Power BI File](./powerbi/Sales_Analytics_Dashboard.pbix)
+
+
+### images
+
+![Dashboard](./images/dashboard_overview.png)
+
+
 ## Data Privacy
 
 The dataset used in this project was generated from scratch using AI-assisted data generation.
