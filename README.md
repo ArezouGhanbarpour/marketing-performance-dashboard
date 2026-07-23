@@ -350,7 +350,7 @@ Interactive Power BI dashboard:
 
 ### images
 
-![Dashboard](./images/dashboard_overview.png)
+![Open Images File](./images)
 
 
 ## Data Privacy
